@@ -22,7 +22,7 @@ module.exports = {
       user : 'node',
       host : '116.62.244.133',
       ref  : 'origin/master',
-      repo : 'git@github.com:91epub/kodemo.git',
+      repo : 'git@github.com:osReilly/koaLearn.git',
       path : '/var/www/production',
       'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production'
     }
