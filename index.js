@@ -47,6 +47,6 @@ app.use(async (ctx, next) => {
     ctx.body = "这是一个404 页面"
   }
 });
-app.listen(3000, () => {
+app.listen(3300, () => {
   console.log(`app正在启动，时间是${new Date()}`);
 });
